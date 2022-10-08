@@ -1,0 +1,8 @@
+[build]
+    publish = "dist"
+
+    functions = "serverless"
+[[redirects]]
+    from = "/"
+    to = "/.netlify/functions/compress_files"
+    status = 200
